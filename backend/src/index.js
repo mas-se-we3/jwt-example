@@ -1,6 +1,5 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const path = require('path')
 const { secureWithToken, generateAccessToken, login } = require('./auth')
 const { todos } = require('./data')
 const dotenv = require('dotenv')

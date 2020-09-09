@@ -18,7 +18,6 @@ function generateAccessToken(payload) {
 }
 
 function login(username, password) {
-	console.log(username, password)
 	const user = users.find(
 		u => u.username === username && u.password === password
 	)
